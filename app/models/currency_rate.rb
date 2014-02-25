@@ -7,6 +7,6 @@ class CurrencyRate
   end
 
   def pesos
-    gw.pesos
+    gw.pesos rescue 1
   end
 end
