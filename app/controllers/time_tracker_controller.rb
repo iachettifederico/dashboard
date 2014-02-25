@@ -1,6 +1,5 @@
 class TimeTrackerController < ApplicationController
   def index
-    authenticate_user!
     range   = TimeTracker::DateRange.new( DateTime.now.beginning_of_month,
                                           DateTime.now)
     tracker = TimeTracker::TimeSheet.new(date_range: range)

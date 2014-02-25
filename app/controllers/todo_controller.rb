@@ -1,6 +1,5 @@
 class TodoController < ApplicationController
   def index
-    authenticate_user!
     todo = [
             "Gems & Tools",
             "Cheatsheets",
