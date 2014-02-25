@@ -29,10 +29,6 @@ $(function () {
       {
         name: "Hours",
         data: $('#tracked-hours').data('hours')
-      },
-      {
-        name: "Dollars",
-        data: $('#tracked-hours').data('dollars')
       }
     ]
   });
