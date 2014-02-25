@@ -32,4 +32,5 @@ gem "simple_form", "~> 3.0.1"
 gem "rails_best_practices", "~> 1.14.4"
 gem "rails_presenter", "~> 0.0.3", {:github=>"dfmonaco/rails_presenter"}
 gem "ruby-graphviz", "~> 1.0.9"
-gem "time_tracker", "~> 0.0.1", {:github=>"iachettifederico/time_tracker"}
+gem "time_tracker", "~> 0.0.2", {:github=>"iachettifederico/time_tracker"}
+gem "dotenv-rails", "~> 0.9.0"
